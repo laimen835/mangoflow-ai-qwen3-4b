@@ -1,0 +1,4 @@
+# Optional adapters; install into a separate environment for crawler experiments.
+-r requirements-local.txt
+playwright==1.65.2
+xlrd==2.0.2

@@ -1,0 +1,13 @@
+{
+  "version": "native-grid-v1",
+  "document_id": 18,
+  "source_url": "https://ncsa.ru/upload/iblock/1c2/u5xu3g9qjj490crzfzfrstmgigulrhnt.pdf",
+  "source_sha256": "ee27d559f49e863abaf21314dd9d6312bc410649b4c858695e2f805205f9321b",
+  "pages": [
+    2
+  ],
+  "period": "I семестр 2026–2027 учебного года",
+  "period_page": 1,
+  "records_sha256": "25661f28f4b8f8d2024175c42d778e0a1e3da187e64f70d4ee44ad98707f773d",
+  "review_method": "Visual comparison of native grid against rendered PDF pages 1 and 2; split cells excluded. Abbreviations preserved verbatim; no clock times or week parity inferred."
+}

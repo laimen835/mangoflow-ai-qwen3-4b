@@ -1,0 +1,37 @@
+{
+  "da85c65799c6f36af6906abc0fa939622980ca8f7c1216b4401924863e581bee": {
+    "scope": "spo_confirmed",
+    "scope_quote": "Обучающиеся — студенты СКГА, студенты СПК СКГА, аспиранты, ординаторы.",
+    "text_verified": true,
+    "currency": "unknown",
+    "document_period": "2025 (год на обложке; действующий статус не установлен)",
+    "valid_from": null,
+    "valid_to": null,
+    "reviewed_at": "2026-11-08T17:55:01.975838+00:00",
+    "review_method": "Visual inspection of PDF pages 3,4,5 against Windows OCR. Only approved ranges admitted.",
+    "approved_ranges": [
+      {
+        "page": 3,
+        "start": "Обучающиеся —",
+        "end": "ординаторы.",
+        "section": "3. Термины, определения"
+      },
+      {
+        "page": 4,
+        "start": "4.3.",
+        "end": "проведение платных медицинских осмотров и обследований;",
+        "section": "4. Порядок назначения материальной помощи"
+      },
+      {
+        "page": 5,
+        "start": "4.9.",
+        "end": "проект которого готовит ФЭУ",
+        "section": "4. Порядок назначения материальной помощи"
+      }
+    ],
+    "corrections": {
+      "ГШОО": "ППОО",
+      "трехкратньтй": "трехкратный"
+    }
+  }
+}

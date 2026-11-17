@@ -1,0 +1,15 @@
+*
+!requirements.txt
+!requirements-local.txt
+!alembic.ini
+!src/
+!src/**
+!widget/
+!widget/**
+!migrations/
+!migrations/**
+!deploy/
+!deploy/cpu-trial/
+!deploy/cpu-trial/Dockerfile
+**/__pycache__/
+**/*.pyc

@@ -1,0 +1,26 @@
+{
+  "name": "qwen3:4b-instruct",
+  "model": "qwen3:4b-instruct",
+  "modified_at": "2026-10-29T23:15:02.8706515+03:00",
+  "size": 2497293803,
+  "digest": "0edcdef34593eac1aa2be9c7d06c432dcf81945adca5eca2f27662c18f168ba0",
+  "details": {
+    "parent_model": "",
+    "format": "gguf",
+    "family": "qwen3",
+    "families": [
+      "qwen3"
+    ],
+    "parameter_size": "4.0B",
+    "quantization_level": "Q4_K_M",
+    "context_length": 262144,
+    "embedding_length": 2560,
+    "runner": "ggml"
+  },
+  "capabilities": [
+    "tools",
+    "thinking",
+    "completion"
+  ],
+  "model_artifact_sha256": "85e4a5b7b8ef0e48af0e8658f5aaab9c2324c76c1641493f4d1e25fce54b18b9"
+}

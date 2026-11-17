@@ -1,0 +1,669 @@
+{
+  "version": "manual-final-control-v2",
+  "reviewer": "Codex",
+  "reviewed_date_moscow": "2026-11-17",
+  "case_sha256": "31026eade135bb2d41fe7f60d7a1e29c1a1df50bb0b66f5d787f605ed496f775",
+  "method": "Manual review of all 80 answers against the public source facts and actually supplied model contexts. Same agent authored questions and reviewed answers; not blind or independent human validation. Complete requested fact with no unsupported affirmative additions is required. The 40 questions are paired formulations of 20 facts, not 40 independent facts. No runtime or retrieval parameters were changed after viewing this control.",
+  "runs": {
+    "before-profile": {
+      "input_sha256": "4718921dd072413625cf0778c5b4353e4cad2d1225cbced68c4e56ddb8793ad9",
+      "complete_supported": 29,
+      "unsupported_affirmations": 3,
+      "questions": 40,
+      "clean_supported": 16,
+      "noisy_supported": 13,
+      "rows": [
+        {
+          "id": "final-01-clean",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-01-noisy",
+          "reviewed": true,
+          "complete_supported_answer": false,
+          "unsupported_affirmation": false,
+          "failure": "wrong_scope_refusal",
+          "note": null
+        },
+        {
+          "id": "final-02-clean",
+          "reviewed": true,
+          "complete_supported_answer": false,
+          "unsupported_affirmation": false,
+          "failure": "false_refusal",
+          "note": null
+        },
+        {
+          "id": "final-02-noisy",
+          "reviewed": true,
+          "complete_supported_answer": false,
+          "unsupported_affirmation": false,
+          "failure": "wrong_scope_refusal",
+          "note": null
+        },
+        {
+          "id": "final-03-clean",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-03-noisy",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-04-clean",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-04-noisy",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-05-clean",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-05-noisy",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-06-clean",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-06-noisy",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-07-clean",
+          "reviewed": true,
+          "complete_supported_answer": false,
+          "unsupported_affirmation": false,
+          "failure": "false_refusal",
+          "note": null
+        },
+        {
+          "id": "final-07-noisy",
+          "reviewed": true,
+          "complete_supported_answer": false,
+          "unsupported_affirmation": false,
+          "failure": "false_refusal",
+          "note": null
+        },
+        {
+          "id": "final-08-clean",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-08-noisy",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-09-clean",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-09-noisy",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-10-clean",
+          "reviewed": true,
+          "complete_supported_answer": false,
+          "unsupported_affirmation": true,
+          "failure": "wrong_order_and_date",
+          "note": null
+        },
+        {
+          "id": "final-10-noisy",
+          "reviewed": true,
+          "complete_supported_answer": false,
+          "unsupported_affirmation": true,
+          "failure": "wrong_order_and_date",
+          "note": null
+        },
+        {
+          "id": "final-11-clean",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-11-noisy",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-12-clean",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-12-noisy",
+          "reviewed": true,
+          "complete_supported_answer": false,
+          "unsupported_affirmation": true,
+          "failure": "wrong_centre_then_contradictory_refusal",
+          "note": null
+        },
+        {
+          "id": "final-13-clean",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-13-noisy",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-14-clean",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-14-noisy",
+          "reviewed": true,
+          "complete_supported_answer": false,
+          "unsupported_affirmation": false,
+          "failure": "wrong_scope_refusal",
+          "note": null
+        },
+        {
+          "id": "final-15-clean",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-15-noisy",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-16-clean",
+          "reviewed": true,
+          "complete_supported_answer": false,
+          "unsupported_affirmation": false,
+          "failure": "unnecessary_unit_clarification",
+          "note": null
+        },
+        {
+          "id": "final-16-noisy",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-17-clean",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-17-noisy",
+          "reviewed": true,
+          "complete_supported_answer": false,
+          "unsupported_affirmation": false,
+          "failure": "wrong_scope_refusal",
+          "note": null
+        },
+        {
+          "id": "final-18-clean",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-18-noisy",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-19-clean",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-19-noisy",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-20-clean",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-20-noisy",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        }
+      ]
+    },
+    "after-multi": {
+      "input_sha256": "27261cd28d8d7643b532ce38d309a23b32d41dd388bd1770deba91f69fe6da35",
+      "complete_supported": 34,
+      "unsupported_affirmations": 1,
+      "questions": 40,
+      "clean_supported": 17,
+      "noisy_supported": 17,
+      "rows": [
+        {
+          "id": "final-01-clean",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-01-noisy",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-02-clean",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-02-noisy",
+          "reviewed": true,
+          "complete_supported_answer": false,
+          "unsupported_affirmation": false,
+          "failure": "false_refusal",
+          "note": null
+        },
+        {
+          "id": "final-03-clean",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-03-noisy",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-04-clean",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-04-noisy",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-05-clean",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-05-noisy",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-06-clean",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-06-noisy",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-07-clean",
+          "reviewed": true,
+          "complete_supported_answer": false,
+          "unsupported_affirmation": true,
+          "failure": "invented_contradiction",
+          "note": "2009 is correctly answered, but source [2] describes the predecessor faculty (1974). It does not contradict creation of the institute in 2009."
+        },
+        {
+          "id": "final-07-noisy",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": "Source [2] really does omit the requested institute creation year; source [1] explicitly supplies 2009. Accepted."
+        },
+        {
+          "id": "final-08-clean",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-08-noisy",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": "Main date and cited historical rename are correct; protocol attribution is grammatically awkward, but no different issuing body is explicitly asserted."
+        },
+        {
+          "id": "final-09-clean",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-09-noisy",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-10-clean",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-10-noisy",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-11-clean",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-11-noisy",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-12-clean",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": "Correct date and Academic Council are stated. The phrase following protocol number copies the source without helpful punctuation; wording defect."
+        },
+        {
+          "id": "final-12-noisy",
+          "reviewed": true,
+          "complete_supported_answer": false,
+          "unsupported_affirmation": false,
+          "failure": "false_refusal",
+          "note": null
+        },
+        {
+          "id": "final-13-clean",
+          "reviewed": true,
+          "complete_supported_answer": false,
+          "unsupported_affirmation": false,
+          "failure": "false_refusal",
+          "note": null
+        },
+        {
+          "id": "final-13-noisy",
+          "reviewed": true,
+          "complete_supported_answer": false,
+          "unsupported_affirmation": false,
+          "failure": "false_refusal",
+          "note": null
+        },
+        {
+          "id": "final-14-clean",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": "The conclusion about economic education is broader wording than the source. Accepted as a reference to the documented faculty/institute history, without an explicit claim that no earlier economic education existed."
+        },
+        {
+          "id": "final-14-noisy",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-15-clean",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-15-noisy",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-16-clean",
+          "reviewed": true,
+          "complete_supported_answer": false,
+          "unsupported_affirmation": false,
+          "failure": "unnecessary_unit_clarification",
+          "note": null
+        },
+        {
+          "id": "final-16-noisy",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-17-clean",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-17-noisy",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-18-clean",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-18-noisy",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-19-clean",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-19-noisy",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-20-clean",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        },
+        {
+          "id": "final-20-noisy",
+          "reviewed": true,
+          "complete_supported_answer": true,
+          "unsupported_affirmation": false,
+          "failure": null,
+          "note": null
+        }
+      ]
+    }
+  }
+}

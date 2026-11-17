@@ -1,0 +1,696 @@
+{
+  "goal_status": "active",
+  "target_met": false,
+  "full_supported": 34,
+  "denominator": 70,
+  "percent": 48.6,
+  "required_full_supported": 63,
+  "partial_or_incorrect": 11,
+  "known_fact_unanswered": 20,
+  "source_gap": 5,
+  "unsupported_added_claim_cases": [
+    6,
+    40,
+    63,
+    93,
+    97
+  ],
+  "citation_mismatch_cases": [
+    14
+  ],
+  "per_topic": {
+    "admission": {
+      "questions": 10,
+      "full_supported": 4
+    },
+    "specialties": {
+      "questions": 10,
+      "full_supported": 10
+    },
+    "teachers_contacts": {
+      "questions": 10,
+      "full_supported": 6
+    },
+    "schedule": {
+      "questions": 10,
+      "full_supported": 4
+    },
+    "scholarships_support": {
+      "questions": 10,
+      "full_supported": 3
+    },
+    "hostel": {
+      "questions": 10,
+      "full_supported": 1
+    },
+    "college_services": {
+      "questions": 10,
+      "full_supported": 6
+    }
+  },
+  "latency": {
+    "rag_search_warm_p95_ms": 96.11,
+    "first_text_p95_seconds_all": 9.684,
+    "full_response_p95_seconds_all": 14.07,
+    "note": "Nearest-rank point estimates on this computer; first RAG request excluded only from warm search metric."
+  },
+  "code_unchanged": true,
+  "corpus_unchanged": true,
+  "unique_conversations": 70,
+  "context_replay": "49/49 RAG source IDs and returned snippets matched on immutable replay; replay is not a literal prompt capture.",
+  "judging": "Manual source/completeness audit. Partial answers, missing-source refusals, wrong attributes and unsupported added assertions receive zero coverage credit. Borderline decisions for 38/50/78/96 are recorded.",
+  "baseline_note": "No full 70-question pre-change baseline exists; do not call this a before/after improvement percentage.",
+  "control_use_next": "These 70 answers are now development/error-analysis material. Any later independent acceptance must use a newly frozen control as well as retained regressions.",
+  "rows": [
+    {
+      "id": 5,
+      "topic": "admission",
+      "status": "partial_or_incorrect",
+      "coverage_credit": 0,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "Не сохранено исключение для подачи через порталы."
+    },
+    {
+      "id": 6,
+      "topic": "admission",
+      "status": "partial_or_incorrect",
+      "coverage_credit": 0,
+      "unsupported_added_claim": true,
+      "citation_mismatch": false,
+      "reason": "Добавлено неподтверждённое условие об обязательном оригинале при отсутствии электронного дубликата; не изложен порядок согласия через портал."
+    },
+    {
+      "id": 7,
+      "topic": "admission",
+      "status": "partial_or_incorrect",
+      "coverage_credit": 0,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "Указан общий срок и продление, пропущен более ранний срок творческих специальностей."
+    },
+    {
+      "id": 8,
+      "topic": "admission",
+      "status": "full_supported",
+      "coverage_credit": 1,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "Ответ подтверждён применимым источником; источник/номер проверены."
+    },
+    {
+      "id": 9,
+      "topic": "admission",
+      "status": "full_supported",
+      "coverage_credit": 1,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "Ответ подтверждён применимым источником; источник/номер проверены."
+    },
+    {
+      "id": 10,
+      "topic": "admission",
+      "status": "full_supported",
+      "coverage_credit": 1,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "Ответ подтверждён применимым источником; источник/номер проверены."
+    },
+    {
+      "id": 11,
+      "topic": "admission",
+      "status": "unanswered_known_fact",
+      "coverage_credit": 0,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "retrieval_wrong_context"
+    },
+    {
+      "id": 12,
+      "topic": "admission",
+      "status": "full_supported",
+      "coverage_credit": 1,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "Ответ подтверждён применимым источником; источник/номер проверены."
+    },
+    {
+      "id": 13,
+      "topic": "admission",
+      "status": "partial_or_incorrect",
+      "coverage_credit": 0,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "В перечне пропущено свидетельство о признании иностранного образования, когда оно требуется."
+    },
+    {
+      "id": 14,
+      "topic": "admission",
+      "status": "partial_or_incorrect",
+      "coverage_credit": 0,
+      "unsupported_added_claim": false,
+      "citation_mismatch": true,
+      "reason": "Ссылка на общие условия вместо конкретного дополнительного приёма; утверждение о документе ошибочно отнесено к источнику [3] о медосмотрах."
+    },
+    {
+      "id": 19,
+      "topic": "specialties",
+      "status": "full_supported",
+      "coverage_credit": 1,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "Ответ подтверждён применимым источником; источник/номер проверены."
+    },
+    {
+      "id": 20,
+      "topic": "specialties",
+      "status": "full_supported",
+      "coverage_credit": 1,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "Ответ подтверждён применимым источником; источник/номер проверены."
+    },
+    {
+      "id": 21,
+      "topic": "specialties",
+      "status": "full_supported",
+      "coverage_credit": 1,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "Ответ подтверждён применимым источником; источник/номер проверены."
+    },
+    {
+      "id": 22,
+      "topic": "specialties",
+      "status": "full_supported",
+      "coverage_credit": 1,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "Ответ подтверждён применимым источником; источник/номер проверены."
+    },
+    {
+      "id": 23,
+      "topic": "specialties",
+      "status": "full_supported",
+      "coverage_credit": 1,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "Ответ подтверждён применимым источником; источник/номер проверены."
+    },
+    {
+      "id": 24,
+      "topic": "specialties",
+      "status": "full_supported",
+      "coverage_credit": 1,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "Ответ подтверждён применимым источником; источник/номер проверены."
+    },
+    {
+      "id": 25,
+      "topic": "specialties",
+      "status": "full_supported",
+      "coverage_credit": 1,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "Ответ подтверждён применимым источником; источник/номер проверены."
+    },
+    {
+      "id": 26,
+      "topic": "specialties",
+      "status": "full_supported",
+      "coverage_credit": 1,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "Ответ подтверждён применимым источником; источник/номер проверены."
+    },
+    {
+      "id": 27,
+      "topic": "specialties",
+      "status": "full_supported",
+      "coverage_credit": 1,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "Ответ подтверждён применимым источником; источник/номер проверены."
+    },
+    {
+      "id": 28,
+      "topic": "specialties",
+      "status": "full_supported",
+      "coverage_credit": 1,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "Ответ подтверждён применимым источником; источник/номер проверены."
+    },
+    {
+      "id": 33,
+      "topic": "teachers_contacts",
+      "status": "unanswered_known_fact",
+      "coverage_credit": 0,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "retrieval_wrong_context"
+    },
+    {
+      "id": 34,
+      "topic": "teachers_contacts",
+      "status": "full_supported",
+      "coverage_credit": 1,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "Ответ подтверждён применимым источником; источник/номер проверены."
+    },
+    {
+      "id": 35,
+      "topic": "teachers_contacts",
+      "status": "full_supported",
+      "coverage_credit": 1,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "Ответ подтверждён применимым источником; источник/номер проверены."
+    },
+    {
+      "id": 36,
+      "topic": "teachers_contacts",
+      "status": "full_supported",
+      "coverage_credit": 1,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "Ответ подтверждён применимым источником; источник/номер проверены."
+    },
+    {
+      "id": 37,
+      "topic": "teachers_contacts",
+      "status": "full_supported",
+      "coverage_credit": 1,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "Ответ подтверждён применимым источником; источник/номер проверены."
+    },
+    {
+      "id": 38,
+      "topic": "teachers_contacts",
+      "status": "partial_or_incorrect",
+      "coverage_credit": 0,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "Нужный преподаватель указан, но не разрешена идентичность по полному имени: вместе с ним перечислен другой человек."
+    },
+    {
+      "id": 39,
+      "topic": "teachers_contacts",
+      "status": "partial_or_incorrect",
+      "coverage_credit": 0,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "Назван директор вместо запрошенной степени/звания."
+    },
+    {
+      "id": 40,
+      "topic": "teachers_contacts",
+      "status": "partial_or_incorrect",
+      "coverage_credit": 0,
+      "unsupported_added_claim": true,
+      "citation_mismatch": false,
+      "reason": "Полномочия Совета СПК перепутаны с Учёным советом Академии; роль цикловых комиссий обобщена на весь колледж."
+    },
+    {
+      "id": 41,
+      "topic": "teachers_contacts",
+      "status": "full_supported",
+      "coverage_credit": 1,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "Ответ подтверждён применимым источником; источник/номер проверены."
+    },
+    {
+      "id": 42,
+      "topic": "teachers_contacts",
+      "status": "full_supported",
+      "coverage_credit": 1,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "Ответ подтверждён применимым источником; источник/номер проверены."
+    },
+    {
+      "id": 47,
+      "topic": "schedule",
+      "status": "full_supported",
+      "coverage_credit": 1,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "Ответ подтверждён применимым источником; источник/номер проверены."
+    },
+    {
+      "id": 48,
+      "topic": "schedule",
+      "status": "full_supported",
+      "coverage_credit": 1,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "Ответ подтверждён применимым источником; источник/номер проверены."
+    },
+    {
+      "id": 49,
+      "topic": "schedule",
+      "status": "full_supported",
+      "coverage_credit": 1,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "Ответ подтверждён применимым источником; источник/номер проверены."
+    },
+    {
+      "id": 50,
+      "topic": "schedule",
+      "status": "full_supported",
+      "coverage_credit": 1,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "Ответ подтверждён применимым источником; источник/номер проверены. Количество отдельно не названо, но приведены все три заполненные строки 2/3/4; трактуется как полный содержательный ответ."
+    },
+    {
+      "id": 51,
+      "topic": "schedule",
+      "status": "unanswered_known_fact",
+      "coverage_credit": 0,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "exact_layout_not_approved_in_runtime"
+    },
+    {
+      "id": 52,
+      "topic": "schedule",
+      "status": "unanswered_known_fact",
+      "coverage_credit": 0,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "exact_layout_not_approved_in_runtime"
+    },
+    {
+      "id": 53,
+      "topic": "schedule",
+      "status": "unanswered_known_fact",
+      "coverage_credit": 0,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "calendar_not_structured_or_found"
+    },
+    {
+      "id": 54,
+      "topic": "schedule",
+      "status": "source_gap",
+      "coverage_credit": 0,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "После жёлтых каникулярных колонок первая белая колонка подписана 12–18 января, но отдельная дата начала II семестра явно не обозначена. График содержит особенности/неточности интервалов; нельзя заменять их догадкой о точной дате."
+    },
+    {
+      "id": 55,
+      "topic": "schedule",
+      "status": "unanswered_known_fact",
+      "coverage_credit": 0,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "intent_missed_inflected_week_terms"
+    },
+    {
+      "id": 56,
+      "topic": "schedule",
+      "status": "unanswered_known_fact",
+      "coverage_credit": 0,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "group_document_lookup_not_used"
+    },
+    {
+      "id": 61,
+      "topic": "scholarships_support",
+      "status": "unanswered_known_fact",
+      "coverage_credit": 0,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "generation_false_refusal_with_evidence"
+    },
+    {
+      "id": 62,
+      "topic": "scholarships_support",
+      "status": "full_supported",
+      "coverage_credit": 1,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "Ответ подтверждён применимым источником; источник/номер проверены."
+    },
+    {
+      "id": 63,
+      "topic": "scholarships_support",
+      "status": "partial_or_incorrect",
+      "coverage_credit": 0,
+      "unsupported_added_claim": true,
+      "citation_mismatch": false,
+      "reason": "Основное правило воспроизведено верно, но служебная оценка актуальности приписана самому документу и добавлен неподтверждённый вывод о полноте условий."
+    },
+    {
+      "id": 64,
+      "topic": "scholarships_support",
+      "status": "unanswered_known_fact",
+      "coverage_credit": 0,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "retrieval_wrong_topic_or_year"
+    },
+    {
+      "id": 65,
+      "topic": "scholarships_support",
+      "status": "full_supported",
+      "coverage_credit": 1,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "Ответ подтверждён применимым источником; источник/номер проверены."
+    },
+    {
+      "id": 66,
+      "topic": "scholarships_support",
+      "status": "full_supported",
+      "coverage_credit": 1,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "Ответ подтверждён применимым источником; источник/номер проверены."
+    },
+    {
+      "id": 67,
+      "topic": "scholarships_support",
+      "status": "unanswered_known_fact",
+      "coverage_credit": 0,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "source_page_6_not_in_runtime"
+    },
+    {
+      "id": 68,
+      "topic": "scholarships_support",
+      "status": "source_gap",
+      "coverage_credit": 0,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "В проверенных официальных материалах нет применимой подтверждённой рублёвой ставки академической стипендии СПК на ноябрь 2026 года; ссылки на недоступные положения и исторические ставки не заменяют подтверждение."
+    },
+    {
+      "id": 69,
+      "topic": "scholarships_support",
+      "status": "source_gap",
+      "coverage_credit": 0,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "В проверенных официальных материалах нет применимой подтверждённой рублёвой ставки социальной стипендии СПК на ноябрь 2026 года; ссылки на недоступные положения и исторические ставки не заменяют подтверждение."
+    },
+    {
+      "id": 70,
+      "topic": "scholarships_support",
+      "status": "unanswered_known_fact",
+      "coverage_credit": 0,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "source_appendix_page_8_not_in_runtime"
+    },
+    {
+      "id": 75,
+      "topic": "hostel",
+      "status": "unanswered_known_fact",
+      "coverage_credit": 0,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "aggregate_field_not_routed"
+    },
+    {
+      "id": 76,
+      "topic": "hostel",
+      "status": "unanswered_known_fact",
+      "coverage_credit": 0,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "aggregate_field_not_routed"
+    },
+    {
+      "id": 77,
+      "topic": "hostel",
+      "status": "unanswered_known_fact",
+      "coverage_credit": 0,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "aggregate_field_not_routed"
+    },
+    {
+      "id": 78,
+      "topic": "hostel",
+      "status": "full_supported",
+      "coverage_credit": 1,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "Ответ подтверждён применимым источником; источник/номер проверены. Вопрос о табличных сведениях интернатов/мест: ответ содержит колонку «Интернаты: 0», без утверждения о свободных местах."
+    },
+    {
+      "id": 79,
+      "topic": "hostel",
+      "status": "source_gap",
+      "coverage_credit": 0,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "В прочитанном положении определение порядка заселения поручено Академии, но адресат заявления на заселение однозначно не назван."
+    },
+    {
+      "id": 80,
+      "topic": "hostel",
+      "status": "unanswered_known_fact",
+      "coverage_credit": 0,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "irrelevant_document_clarification"
+    },
+    {
+      "id": 81,
+      "topic": "hostel",
+      "status": "unanswered_known_fact",
+      "coverage_credit": 0,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "housing_body_not_in_runtime"
+    },
+    {
+      "id": 82,
+      "topic": "hostel",
+      "status": "unanswered_known_fact",
+      "coverage_credit": 0,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "irrelevant_document_clarification"
+    },
+    {
+      "id": 83,
+      "topic": "hostel",
+      "status": "unanswered_known_fact",
+      "coverage_credit": 0,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "housing_body_not_in_runtime"
+    },
+    {
+      "id": 84,
+      "topic": "hostel",
+      "status": "source_gap",
+      "coverage_credit": 0,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "Файл порядка оплаты вернул 404; доступное положение ссылается на договор и не содержит точного срока внесения платы."
+    },
+    {
+      "id": 89,
+      "topic": "college_services",
+      "status": "full_supported",
+      "coverage_credit": 1,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "Ответ подтверждён применимым источником; источник/номер проверены."
+    },
+    {
+      "id": 90,
+      "topic": "college_services",
+      "status": "full_supported",
+      "coverage_credit": 1,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "Ответ подтверждён применимым источником; источник/номер проверены."
+    },
+    {
+      "id": 91,
+      "topic": "college_services",
+      "status": "full_supported",
+      "coverage_credit": 1,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "Ответ подтверждён применимым источником; источник/номер проверены."
+    },
+    {
+      "id": 92,
+      "topic": "college_services",
+      "status": "full_supported",
+      "coverage_credit": 1,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "Ответ подтверждён применимым источником; источник/номер проверены."
+    },
+    {
+      "id": 93,
+      "topic": "college_services",
+      "status": "partial_or_incorrect",
+      "coverage_credit": 0,
+      "unsupported_added_claim": true,
+      "citation_mismatch": false,
+      "reason": "Перечень студенческой жизни целиком назван возможностями самоуправления."
+    },
+    {
+      "id": 94,
+      "topic": "college_services",
+      "status": "full_supported",
+      "coverage_credit": 1,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "Ответ подтверждён применимым источником; источник/номер проверены."
+    },
+    {
+      "id": 95,
+      "topic": "college_services",
+      "status": "unanswered_known_fact",
+      "coverage_credit": 0,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "irrelevant_document_clarification"
+    },
+    {
+      "id": 96,
+      "topic": "college_services",
+      "status": "full_supported",
+      "coverage_credit": 1,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "Ответ подтверждён применимым источником; источник/номер проверены. Фраза «дополнительно ничего не сказано» трактуется относительно единственного переданного фрагмента, не всего сайта; формулировку следует уточнить."
+    },
+    {
+      "id": 97,
+      "topic": "college_services",
+      "status": "partial_or_incorrect",
+      "coverage_credit": 0,
+      "unsupported_added_claim": true,
+      "citation_mismatch": false,
+      "reason": "Неспортивные кружки и КВН включены в спортивные возможности."
+    },
+    {
+      "id": 98,
+      "topic": "college_services",
+      "status": "unanswered_known_fact",
+      "coverage_credit": 0,
+      "unsupported_added_claim": false,
+      "citation_mismatch": false,
+      "reason": "retrieval_missed_volunteer_fact"
+    }
+  ]
+}

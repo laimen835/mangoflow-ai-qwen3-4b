@@ -1,0 +1,31 @@
+{
+  "version": "reviewed-web-table-v1",
+  "source_url": "https://ncsa.ru/sveden/grants/",
+  "source_sha256": "e246905e754bcb1725f954bdebb28cd9e47c4fa14096f8d0f733a9e3f9aaded3",
+  "fetched_at": "2026-11-10T18:07:20.618712+00:00",
+  "scope": "academy_general",
+  "heading": "Общежития: опубликованные общие сведения академии",
+  "table_heading": "Информация о количестве жилых помещений в общежитии, интернате для иногородних обучающихся",
+  "headers": [
+    "Наименование показателя",
+    "Общежития",
+    "Интернаты"
+  ],
+  "table_sha256": "73111fcead0986abe6bfcb2cffb70d64563fd419fceb0ca72d1cf46e935c9f84",
+  "approved_rows": [
+    "Количество общежитий/интернатов",
+    "Общая площадь общежитий, интернатов (м кв.)",
+    "Жилая площадь общежитий, интернатов (м кв.)",
+    "Количество мест в общежитиях, в интернатах",
+    "Количество жилых помещений в общежитиях/интернатах, приспособленных для использования инвалидами и лицами с ограниченными возможностями здоровья",
+    "Обеспеченность общежитий, интернатов 100% мягким и жестким инвентарем по установленным стандартным нормам",
+    "Наличие питания (включая буфеты, столовые) в общежитиях, в интернатах"
+  ],
+  "approved_links": [
+    {
+      "title": "Положение о студенческом общежитии",
+      "url": "https://ncsa.ru/institutes/spk/postupayushchim-v-spk/docs/polozhenie_o_stydencheckom_ob.pdf"
+    }
+  ],
+  "review_method": "Read all tabular rows with their column headers. Academy totals only; not proof of SPK quota, vacant places, or applicability/current validity of individual PDF rules."
+}

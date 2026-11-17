@@ -1,0 +1,695 @@
+{
+  "version": "source-quotes-viewed-regression-v1",
+  "reviewer": "Codex",
+  "input_sha256": "6c115df5c1f522243e250f826348df64931e9ef2f043d2425c2f26116665b0c8",
+  "diagnostic_on_viewed_set": true,
+  "method": "Manual review of all 40 responses, the public-source facts and actual contexts, plus exact reconstruction of all 38 selected-source answers from active eligible database chunks and returned source order. Author and reviewer are the same agent. This mode was introduced after viewing the control; the 37/40 result is regression/diagnostic evidence, not an independent acceptance result. Literal copying cannot guarantee correct selection, completeness or truth/currency of the source.",
+  "questions": 40,
+  "complete_supported": 37,
+  "literal_source_answers": 38,
+  "fixed_responses": 2,
+  "free_model_authored_factual_additions": 0,
+  "wrong_entity_selections": 1,
+  "rows": [
+    {
+      "id": "final-01-clean",
+      "selection_status": "complete_selection",
+      "source_quote_mode": true,
+      "literal_copy_verified": true,
+      "selected_chunk_ids": [
+        61330
+      ],
+      "gold_phrase_present": false,
+      "route": "rag",
+      "fallback_type": null,
+      "reviewed": true,
+      "complete_supported_answer": false,
+      "free_model_authored_factual_addition": false,
+      "failure": "wrong_entity_source_selected",
+      "note": "Asked about Engineering Institute (2018), but selector chose a true source paragraph about Construction and Electric Power Institute (2009). Literal copying prevents new prose, not incorrect selection."
+    },
+    {
+      "id": "final-01-noisy",
+      "selection_status": "partial_selection",
+      "source_quote_mode": true,
+      "literal_copy_verified": true,
+      "selected_chunk_ids": [
+        61323
+      ],
+      "gold_phrase_present": true,
+      "route": "rag",
+      "fallback_type": null,
+      "reviewed": true,
+      "complete_supported_answer": true,
+      "free_model_authored_factual_addition": false,
+      "failure": null,
+      "note": null
+    },
+    {
+      "id": "final-02-clean",
+      "selection_status": "complete_selection",
+      "source_quote_mode": true,
+      "literal_copy_verified": true,
+      "selected_chunk_ids": [
+        61323
+      ],
+      "gold_phrase_present": true,
+      "route": "rag",
+      "fallback_type": null,
+      "reviewed": true,
+      "complete_supported_answer": true,
+      "free_model_authored_factual_addition": false,
+      "failure": null,
+      "note": null
+    },
+    {
+      "id": "final-02-noisy",
+      "selection_status": "no_evidence",
+      "source_quote_mode": true,
+      "literal_copy_verified": null,
+      "selected_chunk_ids": [],
+      "gold_phrase_present": false,
+      "route": "rag",
+      "fallback_type": "no_confirmation",
+      "reviewed": true,
+      "complete_supported_answer": false,
+      "free_model_authored_factual_addition": false,
+      "failure": "false_refusal",
+      "note": "The selector returned no evidence even though the source material can answer the question."
+    },
+    {
+      "id": "final-03-clean",
+      "selection_status": "complete_selection",
+      "source_quote_mode": true,
+      "literal_copy_verified": true,
+      "selected_chunk_ids": [
+        61325
+      ],
+      "gold_phrase_present": true,
+      "route": "rag",
+      "fallback_type": null,
+      "reviewed": true,
+      "complete_supported_answer": true,
+      "free_model_authored_factual_addition": false,
+      "failure": null,
+      "note": null
+    },
+    {
+      "id": "final-03-noisy",
+      "selection_status": "complete_selection",
+      "source_quote_mode": true,
+      "literal_copy_verified": true,
+      "selected_chunk_ids": [
+        61325
+      ],
+      "gold_phrase_present": true,
+      "route": "rag",
+      "fallback_type": null,
+      "reviewed": true,
+      "complete_supported_answer": true,
+      "free_model_authored_factual_addition": false,
+      "failure": null,
+      "note": null
+    },
+    {
+      "id": "final-04-clean",
+      "selection_status": "complete_selection",
+      "source_quote_mode": true,
+      "literal_copy_verified": true,
+      "selected_chunk_ids": [
+        61325
+      ],
+      "gold_phrase_present": true,
+      "route": "rag",
+      "fallback_type": null,
+      "reviewed": true,
+      "complete_supported_answer": true,
+      "free_model_authored_factual_addition": false,
+      "failure": null,
+      "note": null
+    },
+    {
+      "id": "final-04-noisy",
+      "selection_status": "complete_selection",
+      "source_quote_mode": true,
+      "literal_copy_verified": true,
+      "selected_chunk_ids": [
+        61325
+      ],
+      "gold_phrase_present": true,
+      "route": "rag",
+      "fallback_type": null,
+      "reviewed": true,
+      "complete_supported_answer": true,
+      "free_model_authored_factual_addition": false,
+      "failure": null,
+      "note": null
+    },
+    {
+      "id": "final-05-clean",
+      "selection_status": "complete_selection",
+      "source_quote_mode": true,
+      "literal_copy_verified": true,
+      "selected_chunk_ids": [
+        61327
+      ],
+      "gold_phrase_present": true,
+      "route": "rag",
+      "fallback_type": null,
+      "reviewed": true,
+      "complete_supported_answer": true,
+      "free_model_authored_factual_addition": false,
+      "failure": null,
+      "note": null
+    },
+    {
+      "id": "final-05-noisy",
+      "selection_status": "complete_selection",
+      "source_quote_mode": true,
+      "literal_copy_verified": true,
+      "selected_chunk_ids": [
+        61327
+      ],
+      "gold_phrase_present": true,
+      "route": "rag",
+      "fallback_type": null,
+      "reviewed": true,
+      "complete_supported_answer": true,
+      "free_model_authored_factual_addition": false,
+      "failure": null,
+      "note": null
+    },
+    {
+      "id": "final-06-clean",
+      "selection_status": "complete_selection",
+      "source_quote_mode": true,
+      "literal_copy_verified": true,
+      "selected_chunk_ids": [
+        61329
+      ],
+      "gold_phrase_present": true,
+      "route": "rag",
+      "fallback_type": null,
+      "reviewed": true,
+      "complete_supported_answer": true,
+      "free_model_authored_factual_addition": false,
+      "failure": null,
+      "note": null
+    },
+    {
+      "id": "final-06-noisy",
+      "selection_status": "complete_selection",
+      "source_quote_mode": true,
+      "literal_copy_verified": true,
+      "selected_chunk_ids": [
+        61329
+      ],
+      "gold_phrase_present": true,
+      "route": "rag",
+      "fallback_type": null,
+      "reviewed": true,
+      "complete_supported_answer": true,
+      "free_model_authored_factual_addition": false,
+      "failure": null,
+      "note": null
+    },
+    {
+      "id": "final-07-clean",
+      "selection_status": "complete_selection",
+      "source_quote_mode": true,
+      "literal_copy_verified": true,
+      "selected_chunk_ids": [
+        61330
+      ],
+      "gold_phrase_present": true,
+      "route": "rag",
+      "fallback_type": null,
+      "reviewed": true,
+      "complete_supported_answer": true,
+      "free_model_authored_factual_addition": false,
+      "failure": null,
+      "note": "2009 source is copied without the invented contradiction seen in generative mode."
+    },
+    {
+      "id": "final-07-noisy",
+      "selection_status": "partial_selection",
+      "source_quote_mode": true,
+      "literal_copy_verified": true,
+      "selected_chunk_ids": [
+        61330,
+        61328
+      ],
+      "gold_phrase_present": true,
+      "route": "rag",
+      "fallback_type": null,
+      "reviewed": true,
+      "complete_supported_answer": true,
+      "free_model_authored_factual_addition": false,
+      "failure": null,
+      "note": null
+    },
+    {
+      "id": "final-08-clean",
+      "selection_status": "partial_selection",
+      "source_quote_mode": true,
+      "literal_copy_verified": true,
+      "selected_chunk_ids": [
+        61456
+      ],
+      "gold_phrase_present": true,
+      "route": "rag",
+      "fallback_type": null,
+      "reviewed": true,
+      "complete_supported_answer": true,
+      "free_model_authored_factual_addition": false,
+      "failure": null,
+      "note": null
+    },
+    {
+      "id": "final-08-noisy",
+      "selection_status": "complete_selection",
+      "source_quote_mode": true,
+      "literal_copy_verified": true,
+      "selected_chunk_ids": [
+        61456
+      ],
+      "gold_phrase_present": true,
+      "route": "rag",
+      "fallback_type": null,
+      "reviewed": true,
+      "complete_supported_answer": true,
+      "free_model_authored_factual_addition": false,
+      "failure": null,
+      "note": null
+    },
+    {
+      "id": "final-09-clean",
+      "selection_status": "complete_selection",
+      "source_quote_mode": true,
+      "literal_copy_verified": true,
+      "selected_chunk_ids": [
+        61451
+      ],
+      "gold_phrase_present": true,
+      "route": "rag",
+      "fallback_type": null,
+      "reviewed": true,
+      "complete_supported_answer": true,
+      "free_model_authored_factual_addition": false,
+      "failure": null,
+      "note": null
+    },
+    {
+      "id": "final-09-noisy",
+      "selection_status": "complete_selection",
+      "source_quote_mode": true,
+      "literal_copy_verified": true,
+      "selected_chunk_ids": [
+        61451
+      ],
+      "gold_phrase_present": true,
+      "route": "rag",
+      "fallback_type": null,
+      "reviewed": true,
+      "complete_supported_answer": true,
+      "free_model_authored_factual_addition": false,
+      "failure": null,
+      "note": null
+    },
+    {
+      "id": "final-10-clean",
+      "selection_status": "partial_selection",
+      "source_quote_mode": true,
+      "literal_copy_verified": true,
+      "selected_chunk_ids": [
+        61453
+      ],
+      "gold_phrase_present": true,
+      "route": "rag",
+      "fallback_type": null,
+      "reviewed": true,
+      "complete_supported_answer": true,
+      "free_model_authored_factual_addition": false,
+      "failure": null,
+      "note": null
+    },
+    {
+      "id": "final-10-noisy",
+      "selection_status": "complete_selection",
+      "source_quote_mode": true,
+      "literal_copy_verified": true,
+      "selected_chunk_ids": [
+        61453
+      ],
+      "gold_phrase_present": true,
+      "route": "rag",
+      "fallback_type": null,
+      "reviewed": true,
+      "complete_supported_answer": true,
+      "free_model_authored_factual_addition": false,
+      "failure": null,
+      "note": null
+    },
+    {
+      "id": "final-11-clean",
+      "selection_status": "partial_selection",
+      "source_quote_mode": true,
+      "literal_copy_verified": true,
+      "selected_chunk_ids": [
+        61454
+      ],
+      "gold_phrase_present": true,
+      "route": "rag",
+      "fallback_type": null,
+      "reviewed": true,
+      "complete_supported_answer": true,
+      "free_model_authored_factual_addition": false,
+      "failure": null,
+      "note": null
+    },
+    {
+      "id": "final-11-noisy",
+      "selection_status": "partial_selection",
+      "source_quote_mode": true,
+      "literal_copy_verified": true,
+      "selected_chunk_ids": [
+        61454
+      ],
+      "gold_phrase_present": true,
+      "route": "rag",
+      "fallback_type": null,
+      "reviewed": true,
+      "complete_supported_answer": true,
+      "free_model_authored_factual_addition": false,
+      "failure": null,
+      "note": null
+    },
+    {
+      "id": "final-12-clean",
+      "selection_status": "partial_selection",
+      "source_quote_mode": true,
+      "literal_copy_verified": true,
+      "selected_chunk_ids": [
+        61455
+      ],
+      "gold_phrase_present": true,
+      "route": "rag",
+      "fallback_type": null,
+      "reviewed": true,
+      "complete_supported_answer": true,
+      "free_model_authored_factual_addition": false,
+      "failure": null,
+      "note": null
+    },
+    {
+      "id": "final-12-noisy",
+      "selection_status": "partial_selection",
+      "source_quote_mode": true,
+      "literal_copy_verified": true,
+      "selected_chunk_ids": [
+        61455
+      ],
+      "gold_phrase_present": true,
+      "route": "rag",
+      "fallback_type": null,
+      "reviewed": true,
+      "complete_supported_answer": true,
+      "free_model_authored_factual_addition": false,
+      "failure": null,
+      "note": null
+    },
+    {
+      "id": "final-13-clean",
+      "selection_status": "complete_selection",
+      "source_quote_mode": true,
+      "literal_copy_verified": true,
+      "selected_chunk_ids": [
+        61441,
+        61478
+      ],
+      "gold_phrase_present": true,
+      "route": "rag",
+      "fallback_type": null,
+      "reviewed": true,
+      "complete_supported_answer": true,
+      "free_model_authored_factual_addition": false,
+      "failure": null,
+      "note": null
+    },
+    {
+      "id": "final-13-noisy",
+      "selection_status": "complete_selection",
+      "source_quote_mode": true,
+      "literal_copy_verified": true,
+      "selected_chunk_ids": [
+        61441,
+        61478,
+        61443
+      ],
+      "gold_phrase_present": true,
+      "route": "rag",
+      "fallback_type": null,
+      "reviewed": true,
+      "complete_supported_answer": true,
+      "free_model_authored_factual_addition": false,
+      "failure": null,
+      "note": null
+    },
+    {
+      "id": "final-14-clean",
+      "selection_status": "complete_selection",
+      "source_quote_mode": true,
+      "literal_copy_verified": true,
+      "selected_chunk_ids": [
+        61504
+      ],
+      "gold_phrase_present": true,
+      "route": "rag",
+      "fallback_type": null,
+      "reviewed": true,
+      "complete_supported_answer": true,
+      "free_model_authored_factual_addition": false,
+      "failure": null,
+      "note": null
+    },
+    {
+      "id": "final-14-noisy",
+      "selection_status": "complete_selection",
+      "source_quote_mode": true,
+      "literal_copy_verified": true,
+      "selected_chunk_ids": [
+        61504
+      ],
+      "gold_phrase_present": true,
+      "route": "rag",
+      "fallback_type": null,
+      "reviewed": true,
+      "complete_supported_answer": true,
+      "free_model_authored_factual_addition": false,
+      "failure": null,
+      "note": null
+    },
+    {
+      "id": "final-15-clean",
+      "selection_status": "complete_selection",
+      "source_quote_mode": true,
+      "literal_copy_verified": true,
+      "selected_chunk_ids": [
+        61505
+      ],
+      "gold_phrase_present": true,
+      "route": "rag",
+      "fallback_type": null,
+      "reviewed": true,
+      "complete_supported_answer": true,
+      "free_model_authored_factual_addition": false,
+      "failure": null,
+      "note": null
+    },
+    {
+      "id": "final-15-noisy",
+      "selection_status": "partial_selection",
+      "source_quote_mode": true,
+      "literal_copy_verified": true,
+      "selected_chunk_ids": [
+        61505
+      ],
+      "gold_phrase_present": true,
+      "route": "rag",
+      "fallback_type": null,
+      "reviewed": true,
+      "complete_supported_answer": true,
+      "free_model_authored_factual_addition": false,
+      "failure": null,
+      "note": null
+    },
+    {
+      "id": "final-16-clean",
+      "selection_status": null,
+      "source_quote_mode": false,
+      "literal_copy_verified": null,
+      "selected_chunk_ids": [],
+      "gold_phrase_present": false,
+      "route": "source_database",
+      "fallback_type": null,
+      "reviewed": true,
+      "complete_supported_answer": false,
+      "free_model_authored_factual_addition": false,
+      "failure": "unnecessary_unit_clarification",
+      "note": "Static unit clarification happens before the quote selector."
+    },
+    {
+      "id": "final-16-noisy",
+      "selection_status": "partial_selection",
+      "source_quote_mode": true,
+      "literal_copy_verified": true,
+      "selected_chunk_ids": [
+        61506
+      ],
+      "gold_phrase_present": true,
+      "route": "rag",
+      "fallback_type": null,
+      "reviewed": true,
+      "complete_supported_answer": true,
+      "free_model_authored_factual_addition": false,
+      "failure": null,
+      "note": null
+    },
+    {
+      "id": "final-17-clean",
+      "selection_status": "complete_selection",
+      "source_quote_mode": true,
+      "literal_copy_verified": true,
+      "selected_chunk_ids": [
+        61506
+      ],
+      "gold_phrase_present": true,
+      "route": "rag",
+      "fallback_type": null,
+      "reviewed": true,
+      "complete_supported_answer": true,
+      "free_model_authored_factual_addition": false,
+      "failure": null,
+      "note": null
+    },
+    {
+      "id": "final-17-noisy",
+      "selection_status": "complete_selection",
+      "source_quote_mode": true,
+      "literal_copy_verified": true,
+      "selected_chunk_ids": [
+        61506
+      ],
+      "gold_phrase_present": true,
+      "route": "rag",
+      "fallback_type": null,
+      "reviewed": true,
+      "complete_supported_answer": true,
+      "free_model_authored_factual_addition": false,
+      "failure": null,
+      "note": null
+    },
+    {
+      "id": "final-18-clean",
+      "selection_status": "complete_selection",
+      "source_quote_mode": true,
+      "literal_copy_verified": true,
+      "selected_chunk_ids": [
+        61510
+      ],
+      "gold_phrase_present": true,
+      "route": "rag",
+      "fallback_type": null,
+      "reviewed": true,
+      "complete_supported_answer": true,
+      "free_model_authored_factual_addition": false,
+      "failure": null,
+      "note": null
+    },
+    {
+      "id": "final-18-noisy",
+      "selection_status": "complete_selection",
+      "source_quote_mode": true,
+      "literal_copy_verified": true,
+      "selected_chunk_ids": [
+        61510
+      ],
+      "gold_phrase_present": true,
+      "route": "rag",
+      "fallback_type": null,
+      "reviewed": true,
+      "complete_supported_answer": true,
+      "free_model_authored_factual_addition": false,
+      "failure": null,
+      "note": null
+    },
+    {
+      "id": "final-19-clean",
+      "selection_status": "complete_selection",
+      "source_quote_mode": true,
+      "literal_copy_verified": true,
+      "selected_chunk_ids": [
+        61510
+      ],
+      "gold_phrase_present": true,
+      "route": "rag",
+      "fallback_type": null,
+      "reviewed": true,
+      "complete_supported_answer": true,
+      "free_model_authored_factual_addition": false,
+      "failure": null,
+      "note": null
+    },
+    {
+      "id": "final-19-noisy",
+      "selection_status": "complete_selection",
+      "source_quote_mode": true,
+      "literal_copy_verified": true,
+      "selected_chunk_ids": [
+        61510
+      ],
+      "gold_phrase_present": true,
+      "route": "rag",
+      "fallback_type": null,
+      "reviewed": true,
+      "complete_supported_answer": true,
+      "free_model_authored_factual_addition": false,
+      "failure": null,
+      "note": null
+    },
+    {
+      "id": "final-20-clean",
+      "selection_status": "complete_selection",
+      "source_quote_mode": true,
+      "literal_copy_verified": true,
+      "selected_chunk_ids": [
+        61511
+      ],
+      "gold_phrase_present": true,
+      "route": "rag",
+      "fallback_type": null,
+      "reviewed": true,
+      "complete_supported_answer": true,
+      "free_model_authored_factual_addition": false,
+      "failure": null,
+      "note": null
+    },
+    {
+      "id": "final-20-noisy",
+      "selection_status": "complete_selection",
+      "source_quote_mode": true,
+      "literal_copy_verified": true,
+      "selected_chunk_ids": [
+        61511
+      ],
+      "gold_phrase_present": true,
+      "route": "rag",
+      "fallback_type": null,
+      "reviewed": true,
+      "complete_supported_answer": true,
+      "free_model_authored_factual_addition": false,
+      "failure": null,
+      "note": null
+    }
+  ]
+}

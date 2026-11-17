@@ -1,0 +1,9 @@
+answers-*.json
+review-*.json
+judgments-*.json
+*.log
+*.tmp
+summary.json
+evidence-audit.json
+all-answers.csv
+real-dialogues-diagnostic.json

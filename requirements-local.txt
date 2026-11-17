@@ -1,0 +1,13 @@
+-r requirements.txt
+# File ingestion and asynchronous integration tests used by this checkout.
+PyMuPDF==2.0
+python-docx==1.2.0
+openpyxl==3.1.5
+Pillow==13.0.0
+pytesseract==0.3.13
+pytest-asyncio==1.4.1
+tzdata==2026.6
+onnxruntime==1.31.1
+tokenizers==0.23.3
+pymorphy3==2.0.6
+pymorphy3-dicts-ru==2.4.417150.4580142
